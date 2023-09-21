@@ -1,4 +1,7 @@
+from art import logo
+
 print("\nWelcome to LTO Car Registration Renewal Schedule\n")
+print(logo)
 plate_number = input("Enter your car's plate number: ")
 last_digit = plate_number[-1]
 second_to_last_digit = plate_number[-2]
